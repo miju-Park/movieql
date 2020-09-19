@@ -1,6 +1,8 @@
+import { getById, people } from './db';
 const resolvers = {
 	Query: {
-		name: () => 'nicolas'
+		people: () => people,
+		person: (id) => getById(id)
 	}
 };
 export default resolvers;
