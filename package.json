@@ -19,7 +19,8 @@
 	"homepage": "https://github.com/miju-Park/movieql#readme",
 	"dependencies": {
 		"babel-cli": "^6.26.0",
-		"graphql-yoga": "^1.14.12"
+		"graphql-yoga": "^1.14.12",
+		"node-fetch": "^2.6.1"
 	},
 	"devDependencies": {
 		"babel-preset-env": "^1.7.0",
